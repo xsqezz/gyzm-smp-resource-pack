@@ -1,16 +1,16 @@
 # Gyzmo SMP — Gemy
 
-Oficjalny resource pack serwera Gyzmo SMP dla pluginu `smp-paper-plugin` w wersji 1.3.2.
+Oficjalny resource pack serwera Gyzmo SMP, wydanie **1.3.3**.
 
-Paczka `Gyzmo-SMP-Gemy-1.3.2.zip` dodaje trzynascie unikalnych tekstur Echo Shardow dla Gemow. Kazdy Gem ma wlasna, nieregularna sylwetke fasetowanego krysztalu oraz rune zwiazana ze swoja zdolnoscia.
+Paczka `Gyzmo-SMP-Gemy-1.3.3.zip` dodaje trzynascie unikalnych tekstur Gemów. Każdy Gem używa sylwetki kryształu podobnej do odłamka ametystu, ale ma własny kolor. Paczka zawiera również modele `Gem Fragment` i `Gem Upgrader`.
 
 ## Konfiguracja serwera
 
-Wpisz bezposredni adres assetu z wydania do pola **Resource pack** w panelu serwera albo ustaw w `server.properties`:
+Wpisz bezpośredni adres paczki z repozytorium do pola **Resource pack** w panelu serwera albo ustaw w `server.properties`:
 
 ```properties
-resource-pack=https://github.com/xsqezz/gyzm-smp-resource-pack/releases/download/v1.3.2/Gyzmo-SMP-Gemy-1.3.2.zip
-resource-pack-sha1=f8c5e2cb049a1a7baa17f1655396958962d6f8f6
+resource-pack=https://raw.githubusercontent.com/xsqezz/gyzm-smp-resource-pack/master/Gyzmo-SMP-Gemy-1.3.3.zip
+resource-pack-sha1=4a37ef978f353532f960b1b5251c244c1f0c37c5
 resource-pack-prompt={"text":"Gyzmo SMP wymaga resource packa Gemow."}
-resource-pack-required=true
+require-resource-pack=true
 ```
